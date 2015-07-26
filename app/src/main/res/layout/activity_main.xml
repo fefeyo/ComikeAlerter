@@ -2,7 +2,27 @@
     android:layout_height="match_parent"
     android:layout_width="match_parent"
     android:orientation="vertical"
+    android:paddingTop="12dp"
+    android:paddingBottom="12dp"
+    android:paddingRight="12dp"
+    android:paddingLeft="12dp"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <TextView
+        android:id="@+id/title"
+        android:text="コミックマーケット88まであと"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="#000"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+
+    <TextView
+        android:id="@+id/count_down"
+        android:text="C88まであと"
+        android:textSize="25sp"
+        android:textColor="#000"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"/>
 
 </LinearLayout>
